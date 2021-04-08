@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/schlumpf/udacity/azure_nanodegree/first_project/venv"
+set -gx VIRTUAL_ENV "/home/schlumpf/udacity/azure_nanodegree/udacity_azure_projects/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH

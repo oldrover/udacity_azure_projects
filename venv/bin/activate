@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/schlumpf/udacity/azure_nanodegree/first_project/venv"
+VIRTUAL_ENV="/home/schlumpf/udacity/azure_nanodegree/udacity_azure_projects/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
