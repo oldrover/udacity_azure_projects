@@ -16,6 +16,7 @@ These are the important points to consider whether to choose Azure VMs or Azure 
 - Azure VMs offer developer more control over the environment. Like, one can’t choose underlying OS of VM in an Azure App Service.
 - Azure App Services do not offer Pay-as-you-Go. Hence, you’re paying for the service plan, even if you’re not using it.
 - There may be constraints for the support of certain programming languages on Azure App Service. In that case, one has to use Azure VM to create environment for the programming language.
+- on both choices you don’t have to worry about the initial investment required to buy the hardware itself, you don’t have to maintain it and think about its 24 hours, 365 days availability
 
 I chose the App Service as it is cost efficient for our lightweight app, makes the deployment easy and keeps the administration at a minimum.
 
