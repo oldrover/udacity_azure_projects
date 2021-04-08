@@ -7,12 +7,17 @@
 - *Choose the appropriate solution (VM or App Service) for deploying the app*
 - *Justify your choice*
 
-Both services are pretty comparable in price, scalability and availability. But for our leightweight app which doesn't need much compute power the App Service is slightly cheaper.
-While choosing a VM the developer is able to customize and optimize the VM to his needs but also fully responsible for updating and servicing the OS.
-This might come in handy when we have an app which is not supported by App Service.
-On the other hand a big benefit of the App Service is the use of GitHub workflows on the Azure portal for continous deployment. With the App Service you are not responsible for OS updates or services which saves you some time and effort.
+These are the important points to consider whether to choose Azure VMs or Azure App Service:
 
-I chose the App Service as it is a bit more cost efficient for our lightweight app, makes the deployment easy and keeps the administration at a minimum.
+- Azure VMs are more expensive to run in comparison to Azure App Service.
+- Azure App Service have constraints in comparison to Azure VMs in terms of scalability. Hence, Azure VMs are preferred for apps, which have scope to expand for future.
+- Azure App Service requires much less managerial efforts in comparison to Azure Virtual Machines.
+- The development of app is much simpler and faster in Azure App Service.
+- Azure VMs offer developer more control over the environment. Like, one can’t choose underlying OS of VM in an Azure App Service.
+- Azure App Services do not offer Pay-as-you-Go. Hence, you’re paying for the service plan, even if you’re not using it.
+- There may be constraints for the support of certain programming languages on Azure App Service. In that case, one has to use Azure VM to create environment for the programming language.
+
+I chose the App Service as it is cost efficient for our lightweight app, makes the deployment easy and keeps the administration at a minimum.
 
 ### Assess app changes that would change your decision.
 
@@ -20,3 +25,4 @@ I chose the App Service as it is a bit more cost efficient for our lightweight a
 
 If the app needs to be updated for more compute power, maybe playing movies or editing images or something that would require more hardware it might be cheaper to choose VM. Also if there was functionality desired that is not supported by Azure i would also choose the VM. 
 Being unable to manage the software on the server may also cause significant issues might become a problem.
+
