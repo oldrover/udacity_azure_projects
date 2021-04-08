@@ -7,6 +7,7 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
@@ -31,4 +32,4 @@ jobs:
       with:
         app-name: 'cms-project-udacity'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_a8ed8c39c8b04a97b589a8e606a1eec7 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_277edcd10f4747b48415fe8082c5bce2 }}
